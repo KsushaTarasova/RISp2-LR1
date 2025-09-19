@@ -1,5 +1,13 @@
-package by.bsuir.lr1;
+package by.bsuir.lr1.service;
 
+import by.bsuir.lr1.dto.TaskCreatedEvent;
+import by.bsuir.lr1.entity.TaskStatus;
+import by.bsuir.lr1.dto.TaskUpdateRequest;
+import by.bsuir.lr1.dto.TaskCreateRequest;
+import by.bsuir.lr1.dto.TaskResponse;
+import by.bsuir.lr1.entity.Task;
+import by.bsuir.lr1.exception.ResourceNotFoundException;
+import by.bsuir.lr1.repository.TaskRepository;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

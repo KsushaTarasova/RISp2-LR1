@@ -1,6 +1,11 @@
-package by.bsuir.lr1;
+package by.bsuir.lr1.controller;
 
 
+import by.bsuir.lr1.dto.TaskCreateRequest;
+import by.bsuir.lr1.dto.TaskResponse;
+import by.bsuir.lr1.dto.TaskUpdateRequest;
+import by.bsuir.lr1.entity.TaskStatus;
+import by.bsuir.lr1.service.TaskService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.DeleteMapping;

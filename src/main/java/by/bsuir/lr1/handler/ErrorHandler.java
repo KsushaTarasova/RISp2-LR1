@@ -1,5 +1,6 @@
-package by.bsuir.lr1;
+package by.bsuir.lr1.handler;
 
+import by.bsuir.lr1.exception.ResourceNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindException;

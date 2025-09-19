@@ -1,5 +1,6 @@
-package by.bsuir.lr1;
+package by.bsuir.lr1.dto;
 
+import by.bsuir.lr1.entity.TaskStatus;
 import jakarta.validation.constraints.Size;
 import lombok.Getter;
 import lombok.Setter;

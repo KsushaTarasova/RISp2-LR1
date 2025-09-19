@@ -1,5 +1,6 @@
-package by.bsuir.lr1;
+package by.bsuir.lr1.listener;
 
+import by.bsuir.lr1.dto.TaskCreatedEvent;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;

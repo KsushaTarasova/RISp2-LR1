@@ -1,4 +1,4 @@
-package by.bsuir.lr1;
+package by.bsuir.lr1.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
